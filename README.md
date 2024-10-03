@@ -25,3 +25,31 @@ Las etiquetas en **_markdown_** y HTML pueden unirse.
 
 Markdown nació como herramienta de conversión de texto plano a HTML.
 Aunque en realidad Markdown también se considera un lenguaje que tiene la finalidad de permitir crear contenido de una manera sencilla de escribir, y que en todo momento mantenga un diseño legible, así que para simplificar puedes considerar Markdown como un método de escritura.
+
+**Como mostrar código en un repositorio**
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+
+</head>
+<body>
+
+</body>
+</html>
+```
+
+### Como poner un link
+[textoClicable](URL "Titulo opcional")
+
+[Página web de jesuïtes Bellvitge](https://www.fje.edu/ca/jesuites-bellvitge/lescola "Titulo Opcional")
+
+
+### Como poner una imagen
+
+![Imagen de Venom](C:\Users\Nahuel\Documents\repositoriosASIX1\Dossier_MarkDown\spider.jpg "Titulo opcional")
+
