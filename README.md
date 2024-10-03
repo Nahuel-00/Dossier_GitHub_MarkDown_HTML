@@ -51,5 +51,5 @@ Aunque en realidad Markdown también se considera un lenguaje que tiene la final
 
 ### Como poner una imagen
 
-![Imagen de Venom](C:\Users\Nahuel\Documents\repositoriosASIX1\Dossier_MarkDown\spider.jpg "Titulo opcional")
+![Imagen de Venom](https://github.com/Nahuel-00/Dossier_MarkDown/blob/main/spider.jpg "Titulo opcional")
 
