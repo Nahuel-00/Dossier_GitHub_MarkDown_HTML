@@ -53,3 +53,9 @@ Aunque en realidad Markdown también se considera un lenguaje que tiene la final
 
 ![Imagen de Venom](https://github.com/Nahuel-00/Dossier_MarkDown/blob/main/spider.jpg "Titulo opcional")
 
+| Titulo 1| Titulo 2 | Titulo 3 |
+|-------------|:---------:|---------:|
+| SMX2     | Curso 2324   | 25  |
+| **ASIX1**     | Curso 2425   | 33 |
+| DAW2     | Curso 2425   | 32 |
+
