@@ -17,7 +17,7 @@
 
 
 
-
+[//]: <> (Explicacion de como utilizar los diferentes niveles de markdown)
 
 
 # Dossier_MarkDown
@@ -26,6 +26,9 @@
 #### Cuarto nivel de encabezados
 ##### Quinto nivel de encabezados
 ###### Sexto nivel de encabezados
+
+
+[//]: <> (Colocacion de negrita en los parrafos)
 
 Estos son mis __apuntes__ del *0373* del ciclo de _ASIX_ / DAW del curso **2425**.
 
@@ -38,11 +41,17 @@ Las etiquetas en **_markdown_** y HTML pueden unirse.
     * primer elemento de la sublista 2
     * Segundo elemento de la sublista 2
 
+
+
 3. Tercer punto de la lista
 
 * Primer punto de lista desordenada
 - Segundo punto de lista desordenada
 + Tercer punto de lista desordenada
+
+
+
+
 
 
 Markdown nació como herramienta de conversión de texto plano a HTML.
