@@ -43,11 +43,18 @@ Las etiquetas en **_markdown_** y HTML pueden unirse.
 
 
 
+
+
+
+
 3. Tercer punto de la lista
 
 * Primer punto de lista desordenada
 - Segundo punto de lista desordenada
 + Tercer punto de lista desordenada
+
+
+
 
 
 
@@ -89,4 +96,7 @@ Aunque en realidad Markdown también se considera un lenguaje que tiene la final
 | SMX2     | Curso 2324   | 25  |
 | **ASIX1**     | Curso 2425   | 33 |
 | DAW2     | Curso 2425   | 32 |
+
+
+
 
