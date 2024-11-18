@@ -2,45 +2,45 @@
 
 ### Acerca de GitHub
 
-    GitHub es una plataforma donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código.
+GitHub es una plataforma donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código.
 
 
-    Almacenar tu código en un "repositorio" en GitHub te permite:
+Almacenar tu código en un "repositorio" en GitHub te permite:
 
 
-    * __Presentar o compartir__ el trabajo.
-    * __Seguir y administrar__ los cambios en el código a lo largo del tiempo.
-    * Dejar que otros usuarios __revisen__ el código y realicen sugerencias para mejorarlo.
-    * __Colaborar__ en un proyecto compartido, sin preocuparse de que los cambios afectarán al trabajo de los colaboradores antes de que esté listo para integrarlos.
+* __Presentar o compartir__ el trabajo.
+* __Seguir y administrar__ los cambios en el código a lo largo del tiempo.
+* Dejar que otros usuarios __revisen__ el código y realicen sugerencias para mejorarlo.
+* __Colaborar__ en un proyecto compartido, sin preocuparse de que los cambios afectarán al trabajo de los colaboradores antes de que esté listo para integrarlos.
 
-    [Ir a la pagina oficial](https://github.com/ "Es un link que te redirige a la pagina oficial de GitHub")
+[Ir a la pagina oficial](https://github.com/ "Es un link que te redirige a la pagina oficial de GitHub")
 
 
 ### Creacion de repositorios en GitHub
 
-    1. Para poder realizar la creación deberemos de seguir los pasos siguientes: 
+1. Para poder realizar la creación deberemos de seguir los pasos siguientes: 
 
-        + Vaya a https://github.com/
-        + Haga clic en Registrarse.
-        + Sigue las indicaciones para crear tu cuenta personal.
-
-    
-    2. Una vez te registres y logres acceder a tu cuenta, lograrás ver una pagina inicial y debererás de diriguirte a la parte arriba-derecha de la pantalla y clicar en tu perfil.
-
-        ![Imagen pagina inicial](C:\Users\nahuel\Documents\GitHub\Dossier_GitHub_MarkDown_HTML\img_github\imageninicial.png "esta es la primera imagen de GitHub")
-
-
-    3. Después de realizar lo anterior entraremos a una página en la cual encontraremos una lista de repositorios.
-
-        ![Ir a repositorios](C:\Users\nahuel\Documents\GitHub\Dossier_GitHub_MarkDown_HTML\img_github\lista_opciones.png "Esto es una lista en la cual se encuentra unas opciones para ir a los repositorios")
-
-
-    4. Aqui podemos ver la barra de navegación para realizar el desplazamiento y deberemos de clicar en una barra en la cual tendremos unas opciones, deberemos de clicar en **Nuevo**.
-
-    ![navbar](C:\Users\nahuel\Documents\GitHub\Dossier_GitHub_MarkDown_HTML\img_github\barra.png "Aqui se pueden crear nuevos repositorios")
+    + Vaya a https://github.com/
+    + Haga clic en Registrarse.
+    + Sigue las indicaciones para crear tu cuenta personal.
 
     
-    5.  Al clicar en **Nuevo** nos dirigiremos al lugar en el cual podremos configurar el repositorio, primero deberemos de introducir el nombre el cual no debe de tener espacios o acentos y sucesivamente que no es obligatrio pero es recomendado colocar el 
+2. Una vez te registres y logres acceder a tu cuenta, lograrás ver una pagina inicial y debererás de diriguirte a la parte arriba-derecha de la pantalla y clicar en tu perfil.
+
+![Imagen pagina inicial](C:\Users\nahuel\Documents\GitHub\Dossier_GitHub_MarkDown_HTML\img_github\imageninicial.png "esta es la primera imagen de GitHub")
+
+
+3. Después de realizar lo anterior entraremos a una página en la cual encontraremos una lista de repositorios.
+
+![Ir a repositorios](C:\Users\nahuel\Documents\GitHub\Dossier_GitHub_MarkDown_HTML\img_github\lista_opciones.png "Esto es una lista en la cual se encuentra unas opciones para ir a los repositorios")
+
+
+4. Aqui podemos ver la barra de navegación para realizar el desplazamiento y deberemos de clicar en una barra en la cual tendremos unas opciones, deberemos de clicar en **Nuevo**.
+
+![navbar](C:\Users\nahuel\Documents\GitHub\Dossier_GitHub_MarkDown_HTML\img_github\barra.png "Aqui se pueden crear nuevos repositorios")
+
+    
+5.  Al clicar en **Nuevo** nos dirigiremos al lugar en el cual podremos configurar el repositorio, primero deberemos de introducir el nombre el cual no debe de tener espacios o acentos y sucesivamente que no es obligatrio pero es recomendado colocar el 
 
 
 
