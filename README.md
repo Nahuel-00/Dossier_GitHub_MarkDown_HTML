@@ -1,4 +1,7 @@
 # GitHub
+
+[//]: <> (indice, si clicas en una opcion te dirige automaticamente)
+
 - [GitHub](#GitHub)
 - [MarkDown](#MarkDown)
 - [HTML](#HTML)
@@ -59,7 +62,7 @@ Almacenar tu código en un "repositorio" en GitHub te permite:
 
 
 
-
+[//]: <> (aplicacion de git en Github)
 
 ## Acerca de Git
     
@@ -72,11 +75,12 @@ Git es un sistema de control de versiones que realiza un seguimiento de los camb
 * Dejar que Git realice un seguimiento de tus cambios y los de otras personas, por lo que todos siguen trabajando en la versión más actualizada del proyecto.
 
 
+[//]: <> (aplicacion de git en cmd)
 
 ## Aplicación de Git desde CMD
 
 | Orden| Descripción |
-|:------------------:|:-------------------:|
+|:------------------|:-------------------:|
 | ```git init``` | Si no hemos inicializado el repositorio, lo inicia y si ya lo hemos realizado, se reinicia.   |
 | ```git branch```  | Se utiliza para mostrar la rama de main. |
 | ```git add README.md```   | Los cambios que se han realizado en ese archivo especifico se suben a una zona intermedia.  |
@@ -127,7 +131,7 @@ Las etiquetas en **_markdown_** y HTML pueden unirse.
 
 ```
 
-### Resultado
+### Resultado:
 
 Estos son mis __apuntes__ del *0373* del ciclo de _ASIX_ / DAW del curso **2425**.
 
@@ -213,7 +217,7 @@ Un link nos sirve para poder realizar un salto desde la pagina web en que estamo
 [textoClicable](URL "Titulo opcional")
 
 ```
-### Resultado
+### Resultado:
 
 [Página web de jesuïtes Bellvitge](https://www.fje.edu/ca/jesuites-bellvitge/lescola "Titulo Opcional")
 
@@ -223,13 +227,28 @@ Un link nos sirve para poder realizar un salto desde la pagina web en que estamo
 Colocar imágenes enriquecen y mejoran la comprensión de el proyecto que estamos realizando proyecto.
 
 
-![Imagen de Venom](https://github.com/Nahuel-00/Dossier_MarkDown/blob/main/spider.jpg "Titulo opcional")
+![Imagen de Venom](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_markdown/venom.jpg "Titulo opcional")
+
+
+## Creación de tablas
+
+Las tablas te ayudan a presentar información de forma clara y accesible.
+
+```
+| Titulo 1| Titulo 2 | Titulo 3 |
+|-------------|:---------:|---------:|
+| SMX2     | Curso 2324   | 25  |
+| **ASIX1**     | Curso 2425   | 33 |
+| DAW2     | Curso 2425   | 32 |
+```
+### Resultado:
 
 | Titulo 1| Titulo 2 | Titulo 3 |
 |-------------|:---------:|---------:|
 | SMX2     | Curso 2324   | 25  |
 | **ASIX1**     | Curso 2425   | 33 |
 | DAW2     | Curso 2425   | 32 |
+
 
 
 
@@ -288,7 +307,7 @@ Estas etiquetas nos sirven para construir y organizar contenido en una página w
 
 ### Listas no ordenadas
 
-Las listas no ordenadas se crean con la etiqueta **<ul>**. Pueden tener diferentes símbolos:
+Las listas no ordenadas se crean con la etiqueta ```<ul>```. Pueden tener diferentes símbolos:
 
 * Círculo relleno: ```<ul type="disc">```
 * Cuadrado relleno: ```<ul type="square">```
@@ -298,7 +317,7 @@ Las listas no ordenadas se crean con la etiqueta **<ul>**. Pueden tener diferent
 
 ### Listas ordenadas
 
-Las listas ordenadas se crean con la etiqueta **<ol>** y pueden usar varios tipos de numeración:
+Las listas ordenadas se crean con la etiqueta ```<ol>``` y pueden usar varios tipos de numeración:
 
 * Letras mayúsculas: ```<ol type="A">```
 * Letras minúsculas: ```<ol type="a">```
@@ -309,14 +328,13 @@ Las listas ordenadas se crean con la etiqueta **<ol>** y pueden usar varios tipo
 
 ## Validador de HTML
 
-
 Este validador comprueba la validez de los documentos web en HTML,CSS, etc. Sirve para poder encontrar enlaces rotos o simplemente para verificar si nuestro codigo es correcto. Existen 3 formas para poder validar los archivos:
 
 1. Utilizando la URL de nuestra página.
 2. Subiendo directamente el archivo que contiene la página.
 3. Copiando y pegando el codigo de la página en el validador.
 
-![imagen validador](C:\Users\nahuel\Documents\GitHub\Dossier_GitHub_MarkDown_HTML\img_html\validador.png "esta es la pagina web del validador")
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/validador.png "esta es la pagina web del validador")
 
 
 [Ir al validador](https://validator.w3.org/ "Es un link que te redirige a la pagina para que puedas comprobar tus paginas web")
