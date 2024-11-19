@@ -227,7 +227,7 @@ Un link nos sirve para poder realizar un salto desde la pagina web en que estamo
 Colocar imágenes enriquecen y mejoran la comprensión de el proyecto que estamos realizando proyecto.
 
 
-![Imagen de Venom](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_markdown/venom.jpg "Titulo opcional")
+![Imagen de Venom](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_markdown/venom.png "Titulo opcional")
 
 
 ## Creación de tablas
