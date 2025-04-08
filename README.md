@@ -338,3 +338,191 @@ Este validador comprueba la validez de los documentos web en HTML,CSS, etc. Sirv
 
 
 [Ir al validador](https://validator.w3.org/ "Es un link que te redirige a la pagina para que puedas comprobar tus paginas web")
+
+
+
+
+## Formularios en HTML
+
+Los formularios en HTML permiten a los usuarios introducir información para que sea procesada por una aplicación web. Son esenciales para recopilar datos y enviarlos al servidor.
+
+### ¿Qué es un formulario?
+
+Un formulario es un bloque de código HTML formado por controles de entrada o campos, como pueden ser:
+
+1. Campos de texto
+2. Contraseñas
+3. Botones de opción (radio)
+4. Casillas de verificación (checkbox)
+5. Menús desplegables (select)
+6. Áreas de texto (textarea)
+7. Carga de archivos
+8. Botones
+
+### Propiedades de un formulario
+
+Para crear un formulario usamos la etiqueta ```<form>```. Sus atributos más importantes son:
+
+1. action: URL donde se enviarán los datos.
+2. method: cómo se enviarán los datos (get o post).
+
+
+```
+<form action="procesar.php" method="get">
+  <!-- Aquí irán los campos -->
+</form>
+```
+
+### Campo de texto
+
+Se usa para que el usuario introduzca texto libre. Ejemplo: tu nombre.
+
+```
+<input type="text" name="nombre" id="nombre" />
+```
+
+
+### Campo de contraseña
+
+A diferencia del campo de texto normal, los caracteres escritos no se muestran en pantalla, sino que aparecen como puntos o asteriscos
+
+```
+<input type="password" name="clave" id="clave" />
+```
+
+
+### Botones de opción (radio)
+
+Permiten escoger una sola opción entre varias.
+
+```
+<fieldset>
+    <legend>Idioma:</legend>
+
+        <input type="radio" id="cast" name="idioma" value="Castellano">
+        <label for="cast">Castellano:</label>
+            
+        <input type="radio" id="cata" name="idioma" value="Catalan">
+        <label for="cata">Catalan:</label>
+            
+        <input type="radio" id="chino" name="idioma" value="Chino">
+        <label for="chino">Chino:</label>
+
+</fieldset>
+```
+
+### Casillas de verificación (checkbox)
+
+Permiten marcar una o varias opciones.
+
+```
+<fieldset>
+    <legend>Nacionalidad</legend>
+
+        <input type="checkbox" id="nacionalidad" name="Española" value="espanola">
+        <label for="espanola">Española</label>
+            
+        <input type="checkbox" id="nacionalidad" name="Frances" value="Freacesa">
+        <label for="cata">Francesa</label>
+            
+        <input type="checkbox" id="nacionalidad" name="canadience" value="canadiense">
+        <label for="chino">canadience</label>
+
+</fieldset>
+```
+
+
+### Menú desplegable (select)
+
+Muestra una lista de opciones para elegir.
+
+```
+<label for="ciudad">Ciudad</label><br>
+    <select name="ciudad" id="ciudad">
+        <option value="" selected>seleccione una ciudad</option>
+        <option value="londres">londres</option>
+        <option value="barcelona">barcelona</option>
+        <option value="madrid" disabled>Madrid</option>
+        <option value="valencia">Valencia</option>
+    </select>
+```
+
+
+### Área de texto (textarea)
+
+Sirve para escribir comentarios o textos largos.
+
+```
+<label for="observaciones">observaciones</label><br>
+<textarea name="observaciones" id="observaciones" cols="80" rows="4" placeholder="introduce tus comentarios"></textarea>
+```
+
+
+### Botón
+
+
+Sirve para enviar el formulario.
+
+```
+<button type="submit">Enviar datos</button>
+```
+
+
+
+### Métodos de envio de formularios
+
+Cuando un usuario completa un formulario en una página web, los datos introducidos deben enviarse al servidor para que este los procese. Esto se hace a través de un formulario HTML, usando uno de estos dos métodos principales.
+
+
+#### Método GET
+
+Envía los datos como parte de la URL. Es útil para búsquedas o consultas simples.
+
+```
+<form action="recepcion.php" method="GET">
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="introduce tu nombre"><br><br>
+
+</form>
+```
+
+#### Método POST
+
+Envía los datos de manera más segura dentro de la petición HTTP. Es más seguro para enviar información como contraseñas o archivos.
+
+```
+<form action="recepcion.php" method="post">
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="introduce tu nombre"><br><br>
+
+</form>
+```
+
+
+
+
+
+
+## HTML semántico
+
+
+
+
+
+
+## Rutas en HTML
+
+
+
+
+
+
+## Fontawesome
+
+
+
+
+
+## Bootstrap
