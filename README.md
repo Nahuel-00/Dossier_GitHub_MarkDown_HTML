@@ -534,7 +534,9 @@ Envía los datos de manera más segura dentro de la petición HTTP. Es más segu
 Es una biblioteca de íconos basada en fuentes que permite añadir fácilmente íconos escalables a sitios web mediante HTML y CSS.
 
 
-IMAGEN 
+
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/fontw.png "esta es la pagina web del validador")
+
 
 
 Se utiliza para mejorar la apariencia visual de una página web, incluyendo íconos en menús, botones, formularios y más, sin necesidad de usar imágenes.
@@ -543,7 +545,7 @@ Para mostrar un favicon (el ícono que aparece en la pestaña del navegador), de
 
 
 
-IMAGEN 
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/descargar_archivo.png "esta es la pagina web del validador")
 
 
 
@@ -558,7 +560,8 @@ Al colocar esto se tendrían que visualizar esto en el favicon de la web, el ico
 
 
 
-IMAGEN 
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/favicon.png "esta es la pagina web del validador")
+
 
 
 
@@ -566,7 +569,7 @@ IMAGEN
 
 Se utiliza para diseñar páginas web de forma rápida, sencilla. Este framework incluye estilos prediseñados que se pueden aplicar a botones, formularios, alertas y muchos más elementos. Además de los estilos CSS, Bootstrap también incorpora componentes dinámicos que funcionan con JavaScript, como menús desplegables, carruseles de imágenes, ventanas modales, pestañas, entre otros. Estas funciones permiten añadir interactividad a tu sitio sin tener que programar todo desde cero.
 
-IMAGEN
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/bootstrap-logo.jpg "esta es la pagina web del validador")
 
 Algunas de las ventajas que puede tener es que ahorra tiempo al desarrollar una página web, que ofrece compatibilidad con todos los navegadores, que el diseño es adaptable a cualquier dispositivo.
 
@@ -577,7 +580,7 @@ Algunas de las ventajas que puede tener es que ahorra tiempo al desarrollar una 
 
 Tendrás que buscar la web oficial de bootstrap y al acceder al ella deberás de hacer scroll hacia abajo y ahí encontrarás los enlaces para añadirlos a tus páginas web.
 
-IMAGEN
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/boot_cdn.jpg "esta es la pagina web del validador")
 
 
 1. Incluir el CSS de Bootstrap
