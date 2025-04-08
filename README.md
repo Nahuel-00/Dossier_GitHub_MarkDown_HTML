@@ -91,7 +91,7 @@ Git es un sistema de control de versiones que realiza un seguimiento de los camb
 
 
 
-
+- [Volver al índice](#GitHub)
 
 # MarkDown
 
@@ -260,7 +260,7 @@ Colocar un comentario hace que el codigo para el desarrollador sea mas comprensi
 [//]: <> (Ejemplo de como introducir un comentario en MarkDown)
 ```
 
-
+- [Volver al índice](#GitHub)
 
 # HTML
 
@@ -363,8 +363,8 @@ Un formulario es un bloque de código HTML formado por controles de entrada o ca
 
 Para crear un formulario usamos la etiqueta ```<form>```. Sus atributos más importantes son:
 
-1. action: URL donde se enviarán los datos.
-2. method: cómo se enviarán los datos (get o post).
+* action: URL donde se enviarán los datos.
+* method: cómo se enviarán los datos (get o post).
 
 
 ```
@@ -381,6 +381,8 @@ Se usa para que el usuario introduzca texto libre. Ejemplo: tu nombre.
 <input type="text" name="nombre" id="nombre" />
 ```
 
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/campo_de_texto.png "esta es la pagina web del validador")
+
 
 ### Campo de contraseña
 
@@ -389,7 +391,7 @@ A diferencia del campo de texto normal, los caracteres escritos no se muestran e
 ```
 <input type="password" name="clave" id="clave" />
 ```
-
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/campo_de_contase%C3%B1a.png "esta es la pagina web del validador")
 
 ### Botones de opción (radio)
 
@@ -411,6 +413,8 @@ Permiten escoger una sola opción entre varias.
 </fieldset>
 ```
 
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/radi.png "esta es la pagina web del validador")
+
 ### Casillas de verificación (checkbox)
 
 Permiten marcar una o varias opciones.
@@ -431,6 +435,7 @@ Permiten marcar una o varias opciones.
 </fieldset>
 ```
 
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/checkbox.png "esta es la pagina web del validador")
 
 ### Menú desplegable (select)
 
@@ -447,6 +452,7 @@ Muestra una lista de opciones para elegir.
     </select>
 ```
 
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/menu.png "esta es la pagina web del validador")
 
 ### Área de texto (textarea)
 
@@ -457,6 +463,7 @@ Sirve para escribir comentarios o textos largos.
 <textarea name="observaciones" id="observaciones" cols="80" rows="4" placeholder="introduce tus comentarios"></textarea>
 ```
 
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/textarea.png "esta es la pagina web del validador")
 
 ### Botón
 
@@ -467,7 +474,7 @@ Sirve para enviar el formulario.
 <button type="submit">Enviar datos</button>
 ```
 
-
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/boton.png "esta es la pagina web del validador")
 
 ### Métodos de envio de formularios
 
@@ -509,6 +516,8 @@ Envía los datos de manera más segura dentro de la petición HTTP. Es más segu
 
 
 
+## Posicionamientos en HTML 
+
 
 
 
@@ -522,7 +531,76 @@ Envía los datos de manera más segura dentro de la petición HTTP. Es más segu
 ## Fontawesome
 
 
+Es una biblioteca de íconos basada en fuentes que permite añadir fácilmente íconos escalables a sitios web mediante HTML y CSS.
+
+
+IMAGEN 
+
+
+Se utiliza para mejorar la apariencia visual de una página web, incluyendo íconos en menús, botones, formularios y más, sin necesidad de usar imágenes.
+
+Para mostrar un favicon (el ícono que aparece en la pestaña del navegador), debes colocar una línea de código en la sección ```<head>``` de tu documento HTML. Guarda ese archivo que descargues en la misma carpeta donde tienes tu archivo .html o en una carpeta tipo img/ y enlázalo así:
+
+
+
+IMAGEN 
+
+
+
+```
+<head>
+  <link rel="icon" href="./css/file-code-regular.svg">
+</head>
+```
+
+Al colocar esto se tendrían que visualizar esto en el favicon de la web, el icono cambiará segun el que desees colocar.
+
+
+
+
+IMAGEN 
 
 
 
 ## Bootstrap
+
+Se utiliza para diseñar páginas web de forma rápida, sencilla. Este framework incluye estilos prediseñados que se pueden aplicar a botones, formularios, alertas y muchos más elementos. Además de los estilos CSS, Bootstrap también incorpora componentes dinámicos que funcionan con JavaScript, como menús desplegables, carruseles de imágenes, ventanas modales, pestañas, entre otros. Estas funciones permiten añadir interactividad a tu sitio sin tener que programar todo desde cero.
+
+IMAGEN
+
+Algunas de las ventajas que puede tener es que ahorra tiempo al desarrollar una página web, que ofrece compatibilidad con todos los navegadores, que el diseño es adaptable a cualquier dispositivo.
+
+
+### Pasos para poder insertar Bootstrap en HTML
+
+1. Manera de conseguir los enlaces de Bootstrap
+
+Tendrás que buscar la web oficial de bootstrap y al acceder al ella deberás de hacer scroll hacia abajo y ahí encontrarás los enlaces para añadirlos a tus páginas web.
+
+IMAGEN
+
+
+1. Incluir el CSS de Bootstrap
+
+Para enlazarlo, utilizamos la etiqueta ```<link>``` dentro de la sección ```<head>``` de tu archivo HTML. Esto asegura que los estilos se carguen primero, antes de mostrar el contenido de la página, y se apliquen correctamente.
+
+```
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+```
+
+
+2. Incluir el JS de Bootstrap
+
+También incluye funciones interactivas que requieren JavaScript para funcionar correctamente. Para cargar el archivo JS de Bootstrap de manera eficiente, debes incluirlo justo antes del cierre de la etiqueta ```</body>```. De esta manera, el navegador cargará primero todo el contenido HTML y los estilos CSS, y solo después cargará el JS.
+
+```
+<body>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+```
+
+- [Volver al inicio](#GitHub)
+
