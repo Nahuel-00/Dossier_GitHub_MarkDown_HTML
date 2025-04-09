@@ -524,9 +524,54 @@ Envía los datos de manera más segura dentro de la petición HTTP. Es más segu
 ## Rutas en HTML
 
 
+### ¿Qué son las rutas en HTML?
+
+Las rutas en HTML indican la ubicación de un archivo que quieres usar dentro de tu página web, como imágenes, hojas de estilo (CSS), scripts (JavaScript), otros documentos HTML, etc.
+Estas rutas pueden ser relativas o absolutas.
+
+#### Rutas relativas
+
+Las rutas relativas se usan en relación con la ubicación del archivo HTML actual. Es decir, desde el archivo que estás escribiendo, le indicas cómo llegar él.
 
 
+* ./ → La misma carpeta donde está tu archivo HTML.
 
+```
+<img src="./logo.png">
+```
+
+
+* ../ → Sube una carpeta (va al directorio padre).
+
+```
+<link rel="stylesheet" href="../css/estilos.css">
+```
+
+* carpeta/archivo.ext → Entra en una subcarpeta.
+```
+<script src="js/app.js"></script>
+```
+
+* ../../ → Sube dos niveles (muy útil cuando estás dentro de varias subcarpetas).
+
+```
+<img src="../../imagenes/foto.jpg">
+```
+
+#### Rutas absolutas
+
+Las rutas absolutas indican la ubicación exacta desde la raíz de los directorios en local o desde una URL.
+
+Desde la raíz en local:
+```
+<img src="/imagenes/fondo.jpg">
+```
+
+Usando una URL:
+
+```
+<script src="https://cdn.ejemplo.com/libs/lib.js"></script>
+```
 
 ## Fontawesome
 
@@ -580,7 +625,7 @@ Algunas de las ventajas que puede tener es que ahorra tiempo al desarrollar una 
 
 Tendrás que buscar la web oficial de bootstrap y al acceder al ella deberás de hacer scroll hacia abajo y ahí encontrarás los enlaces para añadirlos a tus páginas web.
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/boot_cdn.jpg "esta es la pagina web del validador")
+![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/boot_cdn.png "esta es la pagina web del validador")
 
 
 1. Incluir el CSS de Bootstrap
