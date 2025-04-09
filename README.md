@@ -1,12 +1,16 @@
-# GitHub
 
-[//]: <> (indice, si clicas en una opcion te dirige automaticamente)
+# índice
 
 - [GitHub](#GitHub)
 - [MarkDown](#MarkDown)
 - [HTML](#HTML)
+- [CSS](#CSS)
+- [Fontawesome](#Fontawesome)
+- [Bootstrap](#Bootstrap)
 
-## Acerca de GitHub
+
+
+# GitHub
 
 GitHub es una plataforma donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código.
 
@@ -91,7 +95,7 @@ Git es un sistema de control de versiones que realiza un seguimiento de los camb
 
 
 
-- [Volver al índice](#GitHub)
+- [Volver al inicio](#índice)
 
 # MarkDown
 
@@ -260,7 +264,7 @@ Colocar un comentario hace que el codigo para el desarrollador sea mas comprensi
 [//]: <> (Ejemplo de como introducir un comentario en MarkDown)
 ```
 
-- [Volver al índice](#GitHub)
+- [Volver al inicio](#índice)
 
 # HTML
 
@@ -639,7 +643,128 @@ Usando una URL:
 <script src="https://cdn.ejemplo.com/libs/lib.js"></script>
 ```
 
-## Fontawesome
+- [Volver al inicio](#índice)
+
+
+# CSS
+
+![css](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/css.png " imagen de styles")
+
+
+CSS permite dar estilo a páginas web: colores, tamaños, márgenes, tipografías, etc. Se separa el contenido HTML del diseño CSS.
+
+
+
+```
+<p style="color: blue;">Texto azul con CSS en línea.</p>
+```
+
+## ¿Para qué sirve ```<div>```?
+
+Agrupa contenido y permite aplicar estilos. No tiene estilo por defecto.
+
+```
+<div style="background: lightgray;">Esto está dentro de un div</div>
+```
+
+
+## Ventajas de usar CSS
+
+Una gran ventaja de usar CSS es que, si lo usamos bien, podemos cambiar el diseño de toda la página desde un solo archivo. Eso nos ahorra tiempo y hace que todo el sitio tenga un mismo estilo. Además, si queremos cambiar algo, como el color de fondo o el tipo de letra, lo hacemos una vez y se actualiza en todas partes.
+
+
+## Formas de aplicar CSS
+
+Hay tres formas de usar CSS: directamente en las etiquetas HTML (esto no se recomienda mucho), en la parte superior del archivo HTML, o desde un archivo aparte que termina en .css. Esta última es la más adecuada, porque así el diseño está bien separado del contenido.
+
+
+Se enlaza a una pagina externa de este modo:
+```
+<link rel="stylesheet" href="estilos.css">
+```
+
+
+## Sintaxis básica de CSS
+Cuando usamos CSS, lo que hacemos es seleccionar un elemento y luego decirle cómo queremos que se vea. Por ejemplo, podríamos seleccionar todos los párrafos y decir que el texto sea azul y más grande.
+
+```
+p {
+  color: red;
+  font-size: 16px;
+}
+```
+
+
+## Tipos de selectores
+
+* __Etiqueta:__ ```p { color: red; }```
+
+* __Clase:__ ```.caja { background: yellow; }```
+
+* __ID:__ ```#titulo { text-align: center; }```
+
+
+```
+<p class="caja">Texto con clase</p>
+```
+
+
+## Pseudoclases y pseudoelementos
+
+Las pseudoclases sirven para cambiar el estilo dependiendo del estado del elemento, como cuando colocas el mouse por encima de un botón. Y los pseudoelementos permiten modificar solo una parte, como la primera letra de un texto, por ejemplo.
+
+* __Pseudoclase:__ ```a:hover { color: orange; }```
+
+* __Pseudoelemento:__ ```p::first-line { font-weight: bold; }```
+
+
+## composición. Margenes, bordes y relleno en CSS
+
+Todo lo que colocas en la página se comporta como si estuviera dentro de una caja. Ya sea un párrafo, una imagen o un botón, cada elemento ocupa su espacio como si estuviera dentro de una especie de rectángulo invisible. 
+
+Cada elemento tiene:
+
+* Margin (fuera)
+
+* Border (borde)
+
+* Padding (dentro)
+
+```
+.caja {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 5px;
+}
+```
+
+![cajas](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/cajas.png "organizar el contenido")
+
+
+
+## Media Queries en CSS
+
+Las media queries son reglas que te permiten aplicar estilos CSS según el tamaño de la pantalla u otras características del dispositivo. Es decir, puedes cambiar el diseño de tu web dependiendo de si se ve en un móvil o en una pantalla grande.
+
+En ordenadores el fondo se ve azul y el texto grande, pero si ves la web en un móvil (pantalla de 600px o menos), el fondo cambia a verde y el texto se hace más pequeño.
+
+```
+body {
+  background-color: blue;
+  font-size: 20px;
+}
+
+
+@media (max-width: 700px) {
+  body {
+    background-color: green;
+    font-size: 16px;
+  }
+}
+```
+- [Volver al inicio](#índice)
+
+# Fontawesome
 
 
 Es una biblioteca de íconos basada en fuentes que permite añadir fácilmente íconos escalables a sitios web mediante HTML y CSS.
@@ -674,9 +799,10 @@ Al colocar esto se tendrían que visualizar esto en el favicon de la web, el ico
 ![imagen de favicon](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/favicon.png "este es el favicon")
 
 
+- [Volver al inicio](#índice)
 
 
-## Bootstrap
+# Bootstrap
 
 Se utiliza para diseñar páginas web de forma rápida, sencilla. Este framework incluye estilos prediseñados que se pueden aplicar a botones, formularios, alertas y muchos más elementos. Además de los estilos CSS, Bootstrap también incorpora componentes dinámicos que funcionan con JavaScript, como menús desplegables, carruseles de imágenes, ventanas modales, pestañas, entre otros. Estas funciones permiten añadir interactividad a tu sitio sin tener que programar todo desde cero.
 
@@ -685,7 +811,7 @@ Se utiliza para diseñar páginas web de forma rápida, sencilla. Este framework
 Algunas de las ventajas que puede tener es que ahorra tiempo al desarrollar una página web, que ofrece compatibilidad con todos los navegadores, que el diseño es adaptable a cualquier dispositivo.
 
 
-### Pasos para poder insertar Bootstrap en HTML
+## Pasos para poder insertar Bootstrap en HTML
 
 * Manera de conseguir los enlaces de Bootstrap
 
@@ -716,5 +842,5 @@ También incluye funciones interactivas que requieren JavaScript para funcionar 
 </body>
 ```
 
-- [Volver al inicio](#GitHub)
+- [Volver al inicio](#índice)
 
