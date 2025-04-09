@@ -381,7 +381,7 @@ Se usa para que el usuario introduzca texto libre. Ejemplo: tu nombre.
 <input type="text" name="nombre" id="nombre" />
 ```
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/campo_de_texto.png "esta es la pagina web del validador")
+![imagen campo texto](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/campo_de_texto.png "esta es la imagen que representa el campo de texto")
 
 
 ### Campo de contraseña
@@ -391,7 +391,7 @@ A diferencia del campo de texto normal, los caracteres escritos no se muestran e
 ```
 <input type="password" name="clave" id="clave" />
 ```
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/campo_de_contase%C3%B1a.png "esta es la pagina web del validador")
+![imagen campo contraseña](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/campo_de_contase%C3%B1a.png "esta es la imagen que representa el campo de introducir una contraseña")
 
 ### Botones de opción (radio)
 
@@ -413,7 +413,7 @@ Permiten escoger una sola opción entre varias.
 </fieldset>
 ```
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/radi.png "esta es la pagina web del validador")
+![imagen campo de radio](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/radi.png "esta es la imagen que representa el campo de seleccionar una sola opcion")
 
 ### Casillas de verificación (checkbox)
 
@@ -435,7 +435,7 @@ Permiten marcar una o varias opciones.
 </fieldset>
 ```
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/checkbox.png "esta es la pagina web del validador")
+![imagen de checkbox](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/checkbox.png "esta es la imagen que representa el campo de seleccionar varias opciones")
 
 ### Menú desplegable (select)
 
@@ -452,7 +452,7 @@ Muestra una lista de opciones para elegir.
     </select>
 ```
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/menu.png "esta es la pagina web del validador")
+![imagen de un menú desplegable](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/menu.png "Muestra una lista de opciones para elegir")
 
 ### Área de texto (textarea)
 
@@ -463,7 +463,7 @@ Sirve para escribir comentarios o textos largos.
 <textarea name="observaciones" id="observaciones" cols="80" rows="4" placeholder="introduce tus comentarios"></textarea>
 ```
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/textarea.png "esta es la pagina web del validador")
+![imagen de textarea](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/textarea.png "imagen representativa del textarea")
 
 ### Botón
 
@@ -474,7 +474,7 @@ Sirve para enviar el formulario.
 <button type="submit">Enviar datos</button>
 ```
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/boton.png "esta es la pagina web del validador")
+![imagen de botón de envio](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/boton.png "esta es la imagen de un boton que permite enviar el formulario")
 
 ### Métodos de envio de formularios
 
@@ -514,15 +514,81 @@ Envía los datos de manera más segura dentro de la petición HTTP. Es más segu
 
 ## HTML semántico
 
+Es una forma de escribir HTML usando etiquetas que tienen significado. Estas etiquetas le dicen al navegador qué tipo de contenido hay en cada parte de la página. No es obligatorio reemplazar todos los ```<div>```, pero sí es recomendable usar etiquetas semánticas cuando el contenido tenga un significado claro. Los ```<div>``` siguen siendo útiles para agrupaciones generales sin un significado específico.
+
+
+| Etiqueta | Donde utilizar |
+|:-------------:|:---------:|
+| ```<header>```| encabezado de la página o sección|
+| ```<nav>```   | navegación o menú|
+| ```<main>```  | contenido principal|
+| ```<section>``` | una sección del contenido|
+| ```<article>``` | contenido independiente (como una noticia o post)|
+| ```<aside>```   | contenido relacionado o complementario (como una barra lateral)|
+| ```<footer>```  | pie de página|
+
+
+1. Sin HTML semántico (solo con ```<div>```):
+
+No se debe de realizar de este modo ya que hace que el código sea difícil de leer, entender y es más fácil cometer errores o confundirse al dar estilos con CSS, ya que todo parece igual.
+
+```
+<div id="header">web</div>
+<div id="nav">Inicio | Servicios | Contacto</div>
+<div id="main">
+  <div class="section">
+    <h2>Bienvenido</h2>
+    <p>contenido principal</p>
+  </div>
+</div>
+<div id="footer">pie de pagina</div>
+```
+
+2. Con HTML semántico:
+
+Usar HTML semántico es correcto porque ayuda a que el código tenga estructura y significado. Cada etiqueta describe el tipo de contenido que contiene.
+
+```
+<header>web</header>
+<nav>
+  <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Servicios</a></li>
+    <li><a href="#">Contacto</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Bienvenido</h2>
+    <p>contenido principal</p>
+  </section>
+</main>
+<footer>pie de pagina</footer>
+```
+
 
 
 ## Posicionamientos en HTML 
 
+El posicionamiento en HTML no se refiere solo a dónde están los elementos visualmente, sino cómo se comportan dentro del flujo del documento. En CSS, tenemos diferentes maneras de posicionar y distribuir elementos:
 
+* Estático (static): Sigue el flujo normal del HTML.
+
+* Relativo (relative): Se posiciona en base a su lugar original, pero puede moverse.
+
+* Absoluto (absolute): Se posiciona en relación a su elemento padre con position: relative o al body si no hay padre relativo.
+
+* Fijo (fixed):Se queda fijo en la pantalla, aunque hagas scroll.
+
+* Sticky (sticky): Se comporta como relativa hasta que se alcanza una posición y luego se queda fija.
+
+
+### Resultado al utilizar estos elementos
+
+![posicionamiento](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_html/posicionamiento.png "visualizar como posicionar los elementos en pantalla")
 
 
 ## Rutas en HTML
-
 
 ### ¿Qué son las rutas en HTML?
 
@@ -580,7 +646,7 @@ Es una biblioteca de íconos basada en fuentes que permite añadir fácilmente �
 
 
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/fontw.png "esta es la pagina web del validador")
+![logo de fontawere](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/fontw.png "esta el logo de la pagina web de fontawere")
 
 
 
@@ -590,7 +656,7 @@ Para mostrar un favicon (el ícono que aparece en la pestaña del navegador), de
 
 
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/descargar_archivo.png "esta es la pagina web del validador")
+![imagen de descarga](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/descargar_archivo.png "esta es la imagen representativa de descarga")
 
 
 
@@ -605,7 +671,7 @@ Al colocar esto se tendrían que visualizar esto en el favicon de la web, el ico
 
 
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/favicon.png "esta es la pagina web del validador")
+![imagen de favicon](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/favicon.png "este es el favicon")
 
 
 
@@ -614,21 +680,21 @@ Al colocar esto se tendrían que visualizar esto en el favicon de la web, el ico
 
 Se utiliza para diseñar páginas web de forma rápida, sencilla. Este framework incluye estilos prediseñados que se pueden aplicar a botones, formularios, alertas y muchos más elementos. Además de los estilos CSS, Bootstrap también incorpora componentes dinámicos que funcionan con JavaScript, como menús desplegables, carruseles de imágenes, ventanas modales, pestañas, entre otros. Estas funciones permiten añadir interactividad a tu sitio sin tener que programar todo desde cero.
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/bootstrap-logo.jpg "esta es la pagina web del validador")
+![logo de Bootstrap](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/bootstrap-logo.jpg "representación del logo")
 
 Algunas de las ventajas que puede tener es que ahorra tiempo al desarrollar una página web, que ofrece compatibilidad con todos los navegadores, que el diseño es adaptable a cualquier dispositivo.
 
 
 ### Pasos para poder insertar Bootstrap en HTML
 
-1. Manera de conseguir los enlaces de Bootstrap
+* Manera de conseguir los enlaces de Bootstrap
 
 Tendrás que buscar la web oficial de bootstrap y al acceder al ella deberás de hacer scroll hacia abajo y ahí encontrarás los enlaces para añadirlos a tus páginas web.
 
-![imagen validador](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/boot_cdn.png "esta es la pagina web del validador")
+![insertar Bootstrap](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/boot_cdn.png "aqui se podran conseguir los links")
 
 
-1. Incluir el CSS de Bootstrap
+* Incluir el CSS de Bootstrap
 
 Para enlazarlo, utilizamos la etiqueta ```<link>``` dentro de la sección ```<head>``` de tu archivo HTML. Esto asegura que los estilos se carguen primero, antes de mostrar el contenido de la página, y se apliquen correctamente.
 
@@ -639,7 +705,7 @@ Para enlazarlo, utilizamos la etiqueta ```<link>``` dentro de la sección ```<he
 ```
 
 
-2. Incluir el JS de Bootstrap
+* Incluir el JS de Bootstrap
 
 También incluye funciones interactivas que requieren JavaScript para funcionar correctamente. Para cargar el archivo JS de Bootstrap de manera eficiente, debes incluirlo justo antes del cierre de la etiqueta ```</body>```. De esta manera, el navegador cargará primero todo el contenido HTML y los estilos CSS, y solo después cargará el JS.
 
