@@ -648,7 +648,7 @@ Usando una URL:
 
 # CSS
 
-![css](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/css.png " imagen de styles")
+![css](https://github.com/Nahuel-00/Dossier_GitHub_MarkDown_HTML/blob/main/img_webStyles/css2.png " imagen de styles")
 
 
 CSS permite dar estilo a páginas web: colores, tamaños, márgenes, tipografías, etc. Se separa el contenido HTML del diseño CSS.
